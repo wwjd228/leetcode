@@ -97,7 +97,7 @@ struct TreeNode * InsertNode(struct TreeNode *root, int value)
 struct TreeNode * CreateTree(struct TreeNode *root)
 {
     int value;
-    for (int i = 0 ; i < 3 ; i++) {
+    for (int i = 0 ; i < 10 ; i++) {
         scanf("%d", &value);
 	root = InsertNode(root, value);
     }   
