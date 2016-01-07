@@ -19,7 +19,7 @@ struct Stack {
 
 struct Stack *head = NULL;
 
-void push( struct TreeNode *node )
+static inline void push( struct TreeNode *node )
 {
     if ( node == NULL )
         return;
@@ -30,7 +30,7 @@ void push( struct TreeNode *node )
     head = temp;
 }
 
-struct TreeNode *pop()
+static inline struct TreeNode *pop()
 {
     struct Stack *temp = head;
     struct TreeNode *result = head ->node;
