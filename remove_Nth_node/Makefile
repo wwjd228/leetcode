@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS_common = -O0 -Wall -std=gnu99 -g
+CFLAGS_common = -O2 -Wall -std=gnu99 -g
 
 EXEC = remove_Nth_node
 main:
